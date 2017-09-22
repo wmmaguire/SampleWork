@@ -1,5 +1,4 @@
 # Sample Work
-
 ## About
 This is a directory containing a sample of the work that I completed over the last year (2017).
 
@@ -11,10 +10,9 @@ This is a directory containing a sample of the work that I completed over the la
       + [HeartBeatMonitor](#HeartBeatMonitor)
       + [HeartBeatMonitor-PP](#HeartBeatMonitor-PP)
       + [StepTracker](#StepTracker)
-  * [Machine Learning](#machine-learning)
-      + [Notebook](#notebook)
-      + [lib](#lib)
   * [SmartLamp](#smart-lamp)
+  * [Java Application Development](#java-application-development)
+  * [Computer Systems](#computer-systems)
   * [Contact](#contact)
 
 ## Android Development
@@ -28,7 +26,7 @@ Finger Detection: This tracks the smoothed red pixel values that are recorded an
 Shake Detection: This tracks the magnitude of the 3-axis accelerometer values that are recorded to ensure that BPM calculation are not computed under unsteady conditions (acceleration magnitude values that cross threshold value chosen as 1). The timestamp at which the phone is determined to be unsteady is recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
 <br>
 <p align="center">
-    <img src="HBMDemo.gif" width="640"\>
+    <img src="HBMdemo.gif" width="640"\>
 </p>
 
 ### HeartBeatMonitor-PP
@@ -44,52 +42,8 @@ Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track us
 This android application tracks the steps that have been taken by users.  The direction that the user is facing is logged with each step count to then map out the trajectory of the user.
 
 <p align="center">
-    <img src="/Users/maxmaguire/Desktop/PostGradWork/SampleWork/AndroidDevelopment/StepTracker/trajectory_mode.png" width="640"\>
+    <img src="trajectory_mode.png" width="640"\>
 </p>
-
-## Machine Learning
-This is a general purpose workspace to review Machine Learning algorithms.
-
-In general, this work is inspired by the material covered by Professor Matt Gormley course at Carnegie Mellon (here [here](http://www.cs.cmu.edu/~mgormley/courses/10601-s17/index.html)). Any error in the Python code should be attribued to me and not the aforemention author.
-
-For additional resources, check out:
-[awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
-
-The work in this repository is intended to explore core concepts and provide working examples to reinforce the learning of the subject matter.  All work is developed in Python.
-### lib
-Python library to build a multi-layered fully connected Neural Network.
-
-### notebook
-iPython scripts to explore core machine learning algorithms:
-    - Linear Regression
-    - Logistic Regression
-    - Neural Net
-    - SVM
-    - k-means
-    - PCA
-
-## Data Structures and Algorithms
-This is a general purpose workspace to review Data Structures and Sorting Algorithms.
-Any error in the Python code should be attribued to me .
-
-The work in this repository is intended to explore core concepts and provide working examples to reinforce the learning of the subject matter.  All work is developed in Python.
-### lib
-Python library to easily import Data structures and Algorithms written in notebook
-
-### notebook
-iPython scripts to explore Data Structures and Algorithms:
-    - Data Structures:
-        - DynamicArray
-        - Doubly Linked List
-        - Stack
-        - Queue
-        - Deque
-    - Algorithms:
-        - binary_search
-        - selection_sort
-        - insertion_sort
-        - merge_sort
-        - quick_sort
 
 ### Smart Lamp
 
@@ -98,25 +52,37 @@ The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated fea
 Hand Gesture control Feature:
 <br>
  <p align="center">
-    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+    <img src="handGesture.giff" width="640"\>
 </p>
 <br>
 Face Tracking Feature:
 <br>
  <p align="center">
-    <img src="/SmartLamp/handGesture.giff" width="640"\>
+    <img src="handGesture.giff" width="640"\>
 </p>
 <br>
 Occupancy Detection Feature:
 <br>
  <p align="center">
-    <img src="SmartLamp/handGesture.giff" width="640"\>
+    <img src="handGesture.giff" width="640"\>
 </p>
 
-Helpful Resources:
+## Java Application Development
+This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
+    - DonorList
+    - GPAcalculator
 
-[Configuring OpenCV/Python for RasPI](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/):  This is a step-by-step tutorial on how to configure your raspberry pi to use OpenCV.
+## Computer Systems
+This is a short list of lab that I completed in a course designed to teach the principles of computer systems.
+    - Data Lab
+    - Cache Lab
+    - Malloc Lab
+    - Proxy Lab
+    - Shell Lab
 
-[FLASK](https://blog.miguelgrinberg.com/post/video-streaming-with-flask):   This is a helpful blog to explain how flask works (the python library that is used to post motion jpegs to the web)
+## Contact
+If you have any questions/comments feel free to shoot me an email.
 
-[Haar Cascades Classifiers (Face Detection)](https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/):  This is a python/openCV tutorial on how to implement Haar Cascades for face detection.  Can also be used for other objects (eyes, ears, keys etc..).  There is also information on how to create your own Haar Cascade xml file.
+[wmm5035@gmail.com](mailto:wmm5035@gmail.com) <br>
+
+
