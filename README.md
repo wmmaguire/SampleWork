@@ -35,7 +35,7 @@ Within the 3d printed casing (a) is a switch that can be used to turn on the par
 Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track user heart rate.  The RGB LED flashes every time that a pulse is detected.  It can also "pulsate" given a minor change to (b).  The Android app communicates (c) with the particle photon by receiving BPM values that are process on the particle photon and displaying the value on the screen.  Furthermore, it can transmit commands to change the RGB value that flashes to inform the user of a heart beat.
 <br>
 <p align="center">
-    <img src="HBMdemo-PP.gif" width="240"\>
+    <img src="HBM-PPdemo.gif" width="240"\>
 </p>
 
 ### StepTracker
@@ -49,22 +49,16 @@ This android application tracks the steps that have been taken by users.  The di
 
 The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated features and designed to assistant users remotely and at work. Analamp uses IoT technology and computer vision to extend the control users have at and away from a work site. The lamp provides manual Web application control and automated features for face tracking, remote occupancy detection and hand gesture control.
 <br>
-Hand Gesture control Feature:
-<br>
- <p align="center">
-    <img src="handGesture.giff" width="240"\>
+ <p align="center">Hand Gesture control:
+    <img src="handGesture.gif" width="240"\>
 </p>
 <br>
-Face Tracking Feature:
-<br>
- <p align="center">
+ <p align="center">Face Tracking:
     <img src="faceTrack.png" width="240"\>
 </p>
 <br>
-Occupancy Detection Feature:
-<br>
- <p align="center">
-    <img src="handGesture.giff" width="240"\>
+ <p align="center">Web App Interface :
+    <img src="webApp.png" width="240"\>
 </p>
 
 ## Java Application Development
