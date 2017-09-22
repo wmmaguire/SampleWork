@@ -49,15 +49,15 @@ This android application tracks the steps that have been taken by users.  The di
 
 The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated features and designed to assistant users remotely and at work. Analamp uses IoT technology and computer vision to extend the control users have at and away from a work site. The lamp provides manual Web application control and automated features for face tracking, remote occupancy detection and hand gesture control.
 <br>
- <p align="center">Hand Gesture control:
+ <p align="center">Hand Gesture control:<br>
     <img src="handGesture.gif" width="240"\>
 </p>
 <br>
- <p align="center">Face Tracking:
+ <p align="center">Face Tracking: <br>
     <img src="faceTrack.png" width="240"\>
 </p>
 <br>
- <p align="center">Web App Interface :
+ <p align="center">Web App Interface :<br>
     <img src="webApp.png" width="240"\>
 </p>
 
