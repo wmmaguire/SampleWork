@@ -63,15 +63,22 @@ The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated fea
 
 ## Java Application Development
 This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
+    <br>
     - DonorList
+    <br>
     - GPAcalculator
 
 ## Computer Systems
 This is a short list of lab that I completed in a course designed to teach the principles of computer systems.
+    <br>
     - Data Lab
+    <br>
     - Cache Lab
+    <br>
     - Malloc Lab
+    <br>
     - Proxy Lab
+    <br>
     - Shell Lab
 
 ## Contact
