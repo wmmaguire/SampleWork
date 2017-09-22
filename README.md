@@ -29,7 +29,7 @@ Finger Detection: This tracks the smoothed red pixel values that are recorded an
 
 Shake Detection: This tracks the magnitude of the 3-axis accelerometer values that are recorded to ensure that BPM calculation are not computed under unsteady conditions (acceleration magnitude values that cross threshold value chosen as 1). The timestamp at which the phone is determined to be unsteady is recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
 Attempt # 2
-[HBMDemo](/Users/maxmaguire/Desktop/PostGradWork/SampleWork/AndroidDevelopment/HeartBeatMonitor/HBMDemo.gif"?raw=true "Title")
+![HBMDemo](AndroidDevelopment/HeartBeatMonitor/HBMDemo.gif"?raw=true "Title")
 
 ### HeartBeatMonitor-PP
 This is a pulse sensor that works as a wearable device that you strap to your fingertip.
@@ -37,7 +37,7 @@ Within the 3d printed casing (a) is a switch that can be used to turn on the par
 Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track user heart rate.  The RGB LED flashes every time that a pulse is detected.  It can also "pulsate" given a minor change to (b).  The Android app communicates (c) with the particle photon by receiving BPM values that are process on the particle photon and displaying the value on the screen.  Furthermore, it can transmit commands to change the RGB value that flashes to inform the user of a heart beat.
 
 <p align="center">
-    <img src="/Users/maxmaguire/Desktop/PostGradWork/SampleWork/AndroidDevelopment/HeartBeatMonitor-PP/HeartRateDemo-PP.gif" width="640"\>
+    <img src="/AndroidDevelopment/HeartBeatMonitor-PP/HeartRateDemo-PP.gif" width="640"\>
 </p>
 
 ### StepTracker
