@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <!-- First Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/RGBRow1">
+        <TextView
+            android:id="@+id/rpvTextView"
+            android:text="Red Pixel Value:     "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/redValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0" />
+    </LinearLayout>
+    <!-- Second Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/RGBRow2"
+        android:layout_below="@+id/RGBRow1">
+        <TextView
+            android:id="@+id/gpvTextView"
+            android:text="Green Pixel Value: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/greenValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0" />
+    </LinearLayout>
+    <!-- Third Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/RGBRow3"
+        android:layout_below="@+id/RGBRow2">
+        <TextView
+            android:id="@+id/bpvTextView"
+            android:text="Blue Pixel Value:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/blueValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0" />
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Particle Photon Heart Monitor"
+    android:id="@+id/headerTextView"
+    android:textSize="24sp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Post RGB values"
+    android:id="@+id/postButton"
+    android:layout_below="@+id/RGBRow3"
+    android:layout_centerHorizontal="true"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:text="Get sensor Value"
+    android:id="@+id/getButton"
+    android:layout_alignParentBottom="true"
+    android:layout_alignEnd="@+id/postButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output Data"
+        android:id="@+id/getTextView"
+        android:textSize="40sp"
+        android:layout_marginTop="0dp"
+        android:focusableInTouchMode="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/getButton"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
