@@ -104,13 +104,13 @@ Hand Gesture control Feature:
 Face Tracking Feature:
 <br>
  <p align="center">
-    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+    <img src="/SmartLamp/handGesture.giff" width="640"\>
 </p>
 <br>
 Occupancy Detection Feature:
 <br>
  <p align="center">
-    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+    <img src="SmartLamp/handGesture.giff" width="640"\>
 </p>
 
 Helpful Resources:
