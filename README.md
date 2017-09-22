@@ -14,9 +14,7 @@ This is a directory containing a sample of the work that I completed over the la
   * [Machine Learning](#machine-learning)
       + [Notebook](#notebook)
       + [lib](#lib)
-  * [Data Structures and Algorithms](#data-structures-and-algorithms)
-      + [Notebook](#notebook)
-      + [lib](#lib)
+  * [SmartLamp](#smart-lamp)
   * [Contact](#contact)
 
 ## Android Development
@@ -28,14 +26,16 @@ This is an android app to detect the users heart rate (BPM) by processing Androi
 Finger Detection: This tracks the smoothed red pixel values that are recorded and ensures that BPM calculations are only computed if they cross a threshold value (chosen as 190).The timestamp at which Pixel values fail to exceed this threshold are recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
 
 Shake Detection: This tracks the magnitude of the 3-axis accelerometer values that are recorded to ensure that BPM calculation are not computed under unsteady conditions (acceleration magnitude values that cross threshold value chosen as 1). The timestamp at which the phone is determined to be unsteady is recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
-Attempt # 2
-![HBMDemo](HBMDemo.gif)
+<br>
+<p align="center">
+    <img src="HBMDemo.gif" width="640"\>
+</p>
 
 ### HeartBeatMonitor-PP
 This is a pulse sensor that works as a wearable device that you strap to your fingertip.
 Within the 3d printed casing (a) is a switch that can be used to turn on the particle photon.
 Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track user heart rate.  The RGB LED flashes every time that a pulse is detected.  It can also "pulsate" given a minor change to (b).  The Android app communicates (c) with the particle photon by receiving BPM values that are process on the particle photon and displaying the value on the screen.  Furthermore, it can transmit commands to change the RGB value that flashes to inform the user of a heart beat.
-
+<br>
 <p align="center">
     <img src="HeartRateDemo-PP.gif" width="640"\>
 </p>
@@ -91,25 +91,32 @@ iPython scripts to explore Data Structures and Algorithms:
         - merge_sort
         - quick_sort
 
-## Contact
-If you have any questions/comments feel free to shoot me an email.
-
-[wmm5035@gmail.com](mailto:wmm5035@gmail.com) <br>
-
-
-
-
-
+### Smart Lamp
 
 The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated features and designed to assistant users remotely and at work. Analamp uses IoT technology and computer vision to extend the control users have at and away from a work site. The lamp provides manual Web application control and automated features for face tracking, remote occupancy detection and hand gesture control.
+<br>
+Hand Gesture control Feature:
+<br>
+ <p align="center">
+    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+</p>
+<br>
+Face Tracking Feature:
+<br>
+ <p align="center">
+    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+</p>
+<br>
+Occupancy Detection Feature:
+<br>
+ <p align="center">
+    <img src="https://github.com/wmmaguire/SampleWork/blob/master/SmartLamp/handGesture.giff" width="640"\>
+</p>
 
 Helpful Resources:
 
 [Configuring OpenCV/Python for RasPI](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/):  This is a step-by-step tutorial on how to configure your raspberry pi to use OpenCV.
 
-
-
 [FLASK](https://blog.miguelgrinberg.com/post/video-streaming-with-flask):   This is a helpful blog to explain how flask works (the python library that is used to post motion jpegs to the web)
-
 
 [Haar Cascades Classifiers (Face Detection)](https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/):  This is a python/openCV tutorial on how to implement Haar Cascades for face detection.  Can also be used for other objects (eyes, ears, keys etc..).  There is also information on how to create your own Haar Cascade xml file.
