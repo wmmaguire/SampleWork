@@ -26,7 +26,7 @@ Finger Detection: This tracks the smoothed red pixel values that are recorded an
 Shake Detection: This tracks the magnitude of the 3-axis accelerometer values that are recorded to ensure that BPM calculation are not computed under unsteady conditions (acceleration magnitude values that cross threshold value chosen as 1). The timestamp at which the phone is determined to be unsteady is recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
 <br>
 <p align="center">
-    <img src="HBMdemo.gif" width="640"\>
+    <img src="HBMdemo.gif" width="240"\>
 </p>
 
 ### HeartBeatMonitor-PP
@@ -35,14 +35,14 @@ Within the 3d printed casing (a) is a switch that can be used to turn on the par
 Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track user heart rate.  The RGB LED flashes every time that a pulse is detected.  It can also "pulsate" given a minor change to (b).  The Android app communicates (c) with the particle photon by receiving BPM values that are process on the particle photon and displaying the value on the screen.  Furthermore, it can transmit commands to change the RGB value that flashes to inform the user of a heart beat.
 <br>
 <p align="center">
-    <img src="HeartRateDemo-PP.gif" width="640"\>
+    <img src="HBMdemo-PP.gif" width="240"\>
 </p>
 
 ### StepTracker
 This android application tracks the steps that have been taken by users.  The direction that the user is facing is logged with each step count to then map out the trajectory of the user.
 
 <p align="center">
-    <img src="trajectory_mode.png" width="640"\>
+    <img src="trajectory_mode.png" width="240"\>
 </p>
 
 ### Smart Lamp
@@ -52,19 +52,19 @@ The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated fea
 Hand Gesture control Feature:
 <br>
  <p align="center">
-    <img src="handGesture.giff" width="640"\>
+    <img src="handGesture.giff" width="240"\>
 </p>
 <br>
 Face Tracking Feature:
 <br>
  <p align="center">
-    <img src="handGesture.giff" width="640"\>
+    <img src="faceTrack.png" width="240"\>
 </p>
 <br>
 Occupancy Detection Feature:
 <br>
  <p align="center">
-    <img src="handGesture.giff" width="640"\>
+    <img src="handGesture.giff" width="240"\>
 </p>
 
 ## Java Application Development
