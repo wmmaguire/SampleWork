@@ -28,9 +28,7 @@ This is an android app to detect the users heart rate (BPM) by processing Androi
 Finger Detection: This tracks the smoothed red pixel values that are recorded and ensures that BPM calculations are only computed if they cross a threshold value (chosen as 190).The timestamp at which Pixel values fail to exceed this threshold are recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
 
 Shake Detection: This tracks the magnitude of the 3-axis accelerometer values that are recorded to ensure that BPM calculation are not computed under unsteady conditions (acceleration magnitude values that cross threshold value chosen as 1). The timestamp at which the phone is determined to be unsteady is recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
-<p align="center">
-    <img src="/Users/maxmaguire/Desktop/PostGradWork/SampleWork/AndroidDevelopment/HeartBeatMonitor/HBMDemo.gif" width="640"\>
-</p>
+[HBMDemo](/Users/maxmaguire/Desktop/PostGradWork/SampleWork/AndroidDevelopment/HeartBeatMonitor/HBMDemo.gif"?raw=true "Title")
 
 ### HeartBeatMonitor-PP
 This is a pulse sensor that works as a wearable device that you strap to your fingertip.
