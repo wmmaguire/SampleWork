@@ -1,3 +1,21 @@
+Author: Max Maguire, 2017
+
+Description: Ana-Lamp is a user sensor system that operates as an assistive, interactive desktop lamp.
+
+Folder Contents:
+Flask:  This contains all the software components to run/control Ana-Lamp
+   -  App_V2.py:        Main application
+   -  campera_pi_V2.py: Camera class
+   -  ServoClass_V2.py: Servo class
+   -  requirements.txt: list of dependencies
+   -  templates:        web app html/css files
+DataFolder: directory where data is logged
+Classifiers: Contains xml files for Haar Cascade object detection
+   -  haarcascade_eye.xml - eye feature set
+   - haarcascade_frontalface_default.xml - frontal face feature set
+Adafruit_Python_PCA9685: library to interface servo hat with raspberry pi
+
+
 Helpful Resources:
 
 [Configuring OpenCV/Python for RasPI](http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/):  This is a step-by-step tutorial on how to configure your raspberry pi to use OpenCV.
