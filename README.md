@@ -46,11 +46,11 @@ This android application tracks the steps that have been taken by users.  The di
     <img src="imgs/trajectory_mode.png" width="240"\>
 </p>
 
-### Indoor SLAM
+### Indoor SLAM for Unsupervised learning
 
-Unsupervised learning framework using simulatenous localization and mapping to classify indoor feature sets. 
+Unsupervised learning framework using simulatenous localization and mapping to classify indoor spaces. 
 <br>
- <p align="center">Floor Mapping:<br>
+ <p align="center">Corridor Mapping:<br>
     <img src="imgs/corridor_mapping.gif" width="240"\>
 </p>
 
