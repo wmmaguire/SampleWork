@@ -1,6 +1,6 @@
 # Sample Work
 ## About
-This is a directory containing a sample of the work that I completed over the last year (2017).
+This repository contains a sample of the work that I completed while in graduate school (2016-2017).
 
 ## Table of Contents
 - [Sample Work](#sample-work)
