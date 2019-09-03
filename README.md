@@ -10,6 +10,7 @@ This is a directory containing a sample of the work that I completed over the la
       + [HeartBeatMonitor](#HeartBeatMonitor)
       + [HeartBeatMonitor-PP](#HeartBeatMonitor-PP)
       + [StepTracker](#StepTracker)
+  * [Indoor SLAM](#indoor-slam)
   * [SmartLamp](#smart-lamp)
   * [Java Application Development](#java-application-development)
   * [Computer Systems](#computer-systems)
@@ -44,6 +45,15 @@ This android application tracks the steps that have been taken by users.  The di
 <p align="center">
     <img src="imgs/trajectory_mode.png" width="240"\>
 </p>
+
+### Indoor SLAM
+
+Unsupervised learning framework using simulatenous localization and mapping to classify indoor feature sets. 
+<br>
+ <p align="center">Floor Mapping:<br>
+    <img src="imgs/corridor_mapping.gif" width="240"\>
+</p>
+
 
 ### Smart Lamp
 
