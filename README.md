@@ -9,7 +9,6 @@ This repository contains a sample of the work that I completed while in graduate
   * [Android Development](#android-development)
       + [HeartBeatMonitor](#HeartBeatMonitor)
       + [HeartBeatMonitor-PP](#HeartBeatMonitor-PP)
-      + [StepTracker](#StepTracker)
   * [Indoor SLAM](#indoor-slam)
   * [SmartLamp](#smart-lamp)
   * [Java Application Development](#java-application-development)
@@ -37,13 +36,6 @@ Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track us
 <br>
 <p align="center">
     <img src="imgs/HBM-PPdemo.gif" width="240"\>
-</p>
-
-### StepTracker
-This android application tracks the steps that have been taken by users.  The direction that the user is facing is logged with each step count to then map out the trajectory of the user.
-
-<p align="center">
-    <img src="imgs/trajectory_mode.png" width="240"\>
 </p>
 
 ### Indoor SLAM for Unsupervised learning
