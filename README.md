@@ -33,17 +33,21 @@ This folder contains two java applications that I development as a part of a cou
   <br>
   <p align="left">
     <img src="imgs/Donor-List.png" title="Donor List" width="420"\>
+    <figcaption>Donor List</figcaption>
     <img src="imgs/GPA-Calculator.png" title="GPA Calculator" width="420"\>
+    <figcaption>GPA Calculator</figcaption>
   </p>
 
   <p align="center">
     <img src="imgs/Whack-a-Mole.png" title="Whack-a-Mole" width="500"\>
+    <figcaption>Whack-a-Mole</figcaption>
   </p>
   <br>
+
 ## Android Development
 This folder contains a sample of the android app development that I have completed.  The android applications are listed below:
 
-### HeartBeatMonitor
+# HeartBeatMonitor
 This is an android app to detect the users heart rate (BPM) by processing Android’s built in camera pixel values using openCV.  I added two additional features (finger detection and shake detection) to account for conditions that may lead to inaccurate readings.
 
 Finger Detection: This tracks the smoothed red pixel values that are recorded and ensures that BPM calculations are only computed if they cross a threshold value (chosen as 190).The timestamp at which Pixel values fail to exceed this threshold are recorded (to prohibit the BPM from being calculated before this time point) and a message is displayed on the screen to inform the user.
@@ -54,7 +58,7 @@ Shake Detection: This tracks the magnitude of the 3-axis accelerometer values th
     <img src="imgs/HBMdemo.gif" width="240"\>
 </p>
 
-### HeartBeatMonitor-PP
+# HeartBeatMonitor-PP
 This is a pulse sensor that works as a wearable device that you strap to your fingertip.
 Within the 3d printed casing (a) is a switch that can be used to turn on the particle photon.
 Upon start-up: the RGB LED will flash Red, Green and Blue then begin to track user heart rate.  The RGB LED flashes every time that a pulse is detected.  It can also "pulsate" given a minor change to (b).  The Android app communicates (c) with the particle photon by receiving BPM values that are process on the particle photon and displaying the value on the screen.  Furthermore, it can transmit commands to change the RGB value that flashes to inform the user of a heart beat.
