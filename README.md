@@ -31,21 +31,16 @@ This is a short list of lab that I completed in a course designed to teach the p
 ## Java Application Development
 This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
   <br>
-    - DonorList
-  <p align="right">
+  <p align="left">
     <img src="imgs/Donor-List.png" width="240"\>
   </p>
-  <br>
-    - GPAcalculator
-  <p align="right">
+  <p align="center">
     <img src="imgs/GPA-Calculator.png" width="240"\>
   </p>
-  <br>
-    - Whack-A-Mole
   <p align="right">
     <img src="imgs/Whack-a-Mole.png" width="240"\>
   </p>
-
+  <br>
 ## Android Development
 This folder contains a sample of the android app development that I have completed.  The android applications are listed below:
 
