@@ -32,21 +32,18 @@ This is a short list of lab that I completed in a course designed to teach the p
 This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
   <br>
     - DonorList
-  <br>
   <p align="right">
-    <img src="imgs/Donor-List.png" width="120"\>
+    <img src="imgs/Donor-List.png" width="240"\>
   </p>
   <br>
     - GPAcalculator
-  <br>
   <p align="right">
-    <img src="imgs/GPA-Calculator.png" width="120"\>
+    <img src="imgs/GPA-Calculator.png" width="240"\>
   </p>
   <br>
     - Whack-A-Mole
-  <br>
   <p align="right">
-    <img src="imgs/Whack-a-Mole.png" width="120"\>
+    <img src="imgs/Whack-a-Mole.png" width="240"\>
   </p>
 
 ## Android Development
