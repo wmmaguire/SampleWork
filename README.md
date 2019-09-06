@@ -13,6 +13,7 @@ This repository contains a sample of the work that I completed while in graduate
       + [HeartBeatMonitor-PP](#HeartBeatMonitor-PP)
   * [Indoor SLAM](#indoor-slam)
   * [SmartLamp](#smart-lamp)
+  * [Machine Learning Trading Strategies](#trading-strategies)
   * [Contact](#contact)
 
 ## Computer Systems
@@ -88,9 +89,15 @@ The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated fea
  <p align="center">Web App Interface :<br>
     <img src="imgs/webApp.png" width="240"\>
 </p>
+### Machine Learning Trading Strategies
 
+This project investigates the economic value of a semi-automated HFT (High Frequency Trader) bot in the crypto currency market. The HFT bot runs a web-scraping program to compile social and financial data into a discretized dataset for offline training.  Further analysis was conducted to benchmark the performance of machine learning techniques against traditional trading strategies.
+<br>
+ <p align="center">:<br>
+    <img src="imgs/TradingStrategies.png" width="240"\>
+</p>
 ## Contact
-If you have any questions/comments feel free to shoot me an email.
+If you have any questions/comments, feel free to shoot me an email.
 
 [wmm5035@gmail.com](mailto:wmm5035@gmail.com) <br>
 
