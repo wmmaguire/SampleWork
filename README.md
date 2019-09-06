@@ -33,6 +33,7 @@ This folder contains two java applications that I development as a part of a cou
   <br>
   <p align="right">
     <img src="imgs/Donor-List.png" width="360"\>
+    <img src="imgs/GPA-Calculator.png" width="360"\>
   </p>
   <p align="rightr">
     <img src="imgs/GPA-Calculator.png" width="360"\>
