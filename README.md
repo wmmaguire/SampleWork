@@ -6,14 +6,48 @@ This repository contains a sample of the work that I completed while in graduate
 - [Sample Work](#sample-work)
   * [About](#about)
   * [Table of Contents](#table-of-contents)
+  * [Computer Systems](#computer-systems)
+  * [Java Application Development](#java-application-development)
   * [Android Development](#android-development)
       + [HeartBeatMonitor](#HeartBeatMonitor)
       + [HeartBeatMonitor-PP](#HeartBeatMonitor-PP)
   * [Indoor SLAM](#indoor-slam)
   * [SmartLamp](#smart-lamp)
-  * [Java Application Development](#java-application-development)
-  * [Computer Systems](#computer-systems)
   * [Contact](#contact)
+
+## Computer Systems
+This is a short list of lab that I completed in a course designed to teach the principles of computer systems.
+    <br>
+    - Data Lab
+    <br>
+    - Cache Lab
+    <br>
+    - Malloc Lab
+    <br>
+    - Proxy Lab
+    <br>
+    - Shell Lab
+
+## Java Application Development
+This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
+  <br>
+    - DonorList
+  <br>
+  <p align="right">
+    <img src="imgs/Donor-List.png" width="120"\>
+  </p>
+  <br>
+    - GPAcalculator
+  <br>
+  <p align="right">
+    <img src="imgs/GPA-Calculator.png" width="120"\>
+  </p>
+  <br>
+    - Whack-A-Mole
+  <br>
+  <p align="right">
+    <img src="imgs/Whack-a-Mole.png" width="120"\>
+  </p>
 
 ## Android Development
 This folder contains a sample of the android app development that I have completed.  The android applications are listed below:
@@ -62,26 +96,6 @@ The smart lamp 'AnaLamp' is an interactive desktop lamp, built with animated fea
  <p align="center">Web App Interface :<br>
     <img src="imgs/webApp.png" width="240"\>
 </p>
-
-## Java Application Development
-This folder contains two java applications that I development as a part of a course instructed to teach object oriented programming for java.
-    <br>
-    - DonorList
-    <br>
-    - GPAcalculator
-
-## Computer Systems
-This is a short list of lab that I completed in a course designed to teach the principles of computer systems.
-    <br>
-    - Data Lab
-    <br>
-    - Cache Lab
-    <br>
-    - Malloc Lab
-    <br>
-    - Proxy Lab
-    <br>
-    - Shell Lab
 
 ## Contact
 If you have any questions/comments feel free to shoot me an email.
